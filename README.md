@@ -10,7 +10,7 @@ REST API for managing users built with **Java** and **Spring Boot**.
 - Input validation
 - Global exception handling
 
-##Technologies
+#Technologies
 - Java 17
 - Spring Boot
 - Spring Data JPA
@@ -19,7 +19,7 @@ REST API for managing users built with **Java** and **Spring Boot**.
 - Maven
 - Swagger / OpenAPI
 
-## 📡 API Endpoints
+#API Endpoints
 
 | Method | Endpoint | Description |
 |------|------|------|
@@ -29,9 +29,14 @@ REST API for managing users built with **Java** and **Spring Boot**.
 | PUT | /users/{id} | Update user |
 | DELETE | /users/{id} | Delete user |
 
-## ▶ Running the project
+#Running the project
+mvn spring-boot:run
+
+Swagger documentation:
+http://localhost:8080/swagger-ui/index.html
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/elias2999/user-management-api.git
+
